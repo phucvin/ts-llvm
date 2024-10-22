@@ -1,3 +1,16 @@
+
+-------------
+
+nvm install 8.17.0
+
+npm install
+
+npm run build
+
+npm start -- --help
+
+-------------
+
 > Notice: This project is not being actively worked on. If you're interested to pick it up, let me know. See [#12](https://github.com/ts-llvm/ts-llvm/issues/12).
 
 # ts-llvm [![Build Status](https://travis-ci.org/ts-llvm/ts-llvm.svg?branch=master)](https://travis-ci.org/ts-llvm/ts-llvm)
