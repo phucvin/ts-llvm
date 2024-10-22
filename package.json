@@ -41,7 +41,7 @@
   "homepage": "https://github.com/ts-llvm/ts-llvm",
   "dependencies": {
     "commander": "^2.15.1",
-    "llvm-node": "^2.0.6",
+    "llvm-node": "3.0.0",
     "ramda": "^0.25.0",
     "segfault-handler": "^1.0.1",
     "typescript": "^3.0.1"

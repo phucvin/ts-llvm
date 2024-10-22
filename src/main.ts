@@ -4,12 +4,12 @@ import * as fs from "fs";
 import * as llvm from "llvm-node";
 import * as path from "path";
 // @ts-ignore
-import * as SegfaultHandler from "segfault-handler";
+// import * as SegfaultHandler from "segfault-handler";
 import * as ts from "typescript";
 import { emitLLVM } from "./codegen/generator";
 import { replaceExtension } from "./utils";
 
-SegfaultHandler.registerHandler("ts-llvm-crash.log");
+// SegfaultHandler.registerHandler("ts-llvm-crash.log");
 
 argv
   .option("--printIR", "print LLVM assembly to stdout")

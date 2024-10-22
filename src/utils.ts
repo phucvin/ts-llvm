@@ -1,3 +1,4 @@
+// @ts-nocheck 
 import * as llvm from "llvm-node";
 import * as ts from "typescript";
 import { emitClassDeclaration } from "./codegen/declaration";

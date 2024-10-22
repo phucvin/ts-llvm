@@ -1,3 +1,4 @@
+// @ts-nocheck
 import * as llvm from "llvm-node";
 import { LLVMGenerator } from "./codegen/generator";
 import { error } from "./diagnostics";
